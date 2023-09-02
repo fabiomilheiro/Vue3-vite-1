@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue';
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div>
@@ -11,7 +9,18 @@ import HelloWorld from './components/HelloWorld.vue';
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <div class="description">
+    <p>Please can you make this exercise:</p>
+    <ul>
+      <li>Create 1 component with a text box and button</li>
+      <li>
+        Create 1 component with a list of names submitted by the first component
+      </li>
+    </ul>
+    <img
+      src="https://raw.githubusercontent.com/fabiomilheiro/React-basic-app/main/public/components.png"
+    />
+  </div>
 </template>
 
 <style scoped>
@@ -26,5 +35,8 @@ import HelloWorld from './components/HelloWorld.vue';
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+.description {
+  text-align: left;
 }
 </style>
