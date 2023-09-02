@@ -25,8 +25,10 @@
 
 <style scoped>
 .logo {
-  height: 6em;
+  height: 2em;
   padding: 1.5em;
+  padding-top: 0;
+  padding-bottom: 0;
   will-change: filter;
   transition: filter 300ms;
 }
